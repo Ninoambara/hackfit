@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+function runPopup(){
+    window.alert("ANDA BELUM MEMESAN BARANG!");
+    };

@@ -34,7 +34,7 @@ const db = {
         },
         "treadmill":{
             "nama":"treadmill",
-            "foto":"./pic/treadmill.webp",
+            "foto":"./pic/treadmil.webp",
             "keterangan":"Lorem Ipsum",
             "harga": 75000
         },
@@ -46,10 +46,11 @@ const db = {
         },
         "gym ball":{
             "nama":"gym ball",
-            "foto":"./pic/gymball.webp",
+            "foto":"./pic/gymball.jpg",
             "keterangan":"Lorem Ipsum",
             "harga": 75000
         }
     }
 
 }
+

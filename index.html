@@ -22,8 +22,8 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#shop">shop</a></li>
-            <li><a href="#">testimoni</a></li>
-            <li><a href="#">award</a></li>
+            <li><a href="#testi">testimoni</a></li>
+            <li><a href="#testi">award</a></li>
             <li onclick="runPopup()"><a class="fas fa-shopping-cart"></a></li>
         </ul>
     </div>
@@ -117,7 +117,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/f7d55b7c0b6d4431e67477312f4e0f85.png" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Creatine</h5>
+                    <h5 class="card-title">Evomass</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 1</p>
@@ -126,7 +126,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/suplemen.jpg" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Card 2</h5>
+                    <h5 class="card-title">Whey</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 2</p>
@@ -135,7 +135,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/creatine.jpg" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Card 3</h5>
+                    <h5 class="card-title">Creatine</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 3</p>
@@ -144,7 +144,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/metrx.jpg" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Card 4</h5>
+                    <h5 class="card-title">Met-rx</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 4</p>
@@ -153,7 +153,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/pisang3.jpg" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Card 3</h5>
+                    <h5 class="card-title">Banana</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 3</p>
@@ -162,7 +162,7 @@
             <div class="card content-item kategori2">
                 <img src="pic/dada.jpg" class="card-img-top" alt="Card Image">
                 <div class="card-body">
-                    <h5 class="card-title">Card 3</h5>
+                    <h5 class="card-title">Chicken</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor elit
                         auctor congue.</p>
                     <p class="card-text">Keterangan 3</p>
@@ -171,11 +171,11 @@
         </div>
     </div>
     <!-- end content -->
-    <div class = 'Testimonial'>
-        <h1>Testimonial dan Awards</h1>
+    <div class = 'Testimonial' id="testi">
+        <h1 class="h1-ts">Testimonial dan Awards</h1>
     </div>
 
-    <div class = "container">
+    <div class = "cn-it container">
         <div class = 'row'>
             <div class = 'col'>
                 <div id="carouselTestimoni" class="carousel slide" data-ride="carousel">
@@ -189,23 +189,22 @@
                         <div class = 'profile'>
                             <img class="pelanggan" src="pic/hafiz.jpg" alt="First slide">
                         </div>
-                        <p class = teks-testimoni>"Selama ini saya suka beli kebutuhan olahraga dari website TokoSofi dan saya sering kena penipuan. 
-                            Sekarang, saya bisa belanja aman dan tenang lewat HackFit. Terimakasih HackFit !!!."</p>
-                        <h3>Hafiz Fadillah</h3>
+                        <p class = teks-testimoni>"Berbelanja kebutuhan gym di hackfit sangatlah aman, saya sangat sayang hackfit,membuat badanku berotot"</p>
+                        <h3 class="h3-s">Hafiz Faddilah</h3>
                     </div>
                     <div class="carousel-item" id = 'carouselActive2'>
                         <div class = 'profile'>
                             <img class="pelanggan" src="https://picsum.photos/id/237/200/300" alt="First slide">
                         </div>
                         <p class = teks-testimoni>'Setelah membeli produk dan training di Hackfit saya berhasil menaikkan berat badanku ke 90 kg, terimakasih hackfit!</p>
-                        <h3>Juan Kevin Tri Harto</h3>
+                        <h3 class="h3-s">Juan Kevin</h3>
                     </div>
                     <div class="carousel-item" id = 'carouselActive3'>
                         <div class = 'profile'>
                             <img class="pelanggan" src="pic/najimi.jpg" alt="First slide">
                         </div>
                         <p class = teks-testimoni>"Mau otot seperti punya saya? maka join hackfit sekarang dan anda bisa mencapai hasil seperti ini dalam beberapa bulan!"</p>
-                        <h3>Najimi Aziz</h3>
+                        <h3 class="h3-s">Najmi Aziz</h3>
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselTestimoni" role="button" data-slide="prev">
@@ -265,6 +264,7 @@
                 <p class="copyright">Hackfit © 2023</p>
             </div>
         </footer>
+    
     
 
     

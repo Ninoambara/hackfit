@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pic/bg.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+input{
+    margin-bottom:5%;
+}
+
+#content-page{
+    margin:5% 10%;
+    padding:2%;
+    /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius:10px;
+    background-color:rgba(255,255,255,0.3);
+    color:ghostwhite;
+}
+
+#iklan-bar{
+    margin:1% 10%;
+    padding:1%;
+    /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius:10px;
+    background-color:rgba(255,255,255,0.3);
+    color:ghostwhite;
+}
+
+#bayar{
+    display:block;
+    width:100%;
+}
+#button-page{
+    padding:5px;
+}
+#harga-page{
+    margin:2%
+}
+
+.item-list{
+    overflow :auto;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width:min-content;
+ 
+}
+
+.press-btn{
+    margin: 5px 20px;
+    width: 40vh;
+}
+
+.card{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    max-height:90%;
+    float:left;
+    margin:auto 2%;
+}
+
+.row .iklan{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    max-height:90%;
+    float:left;
+    margin:auto 1%;
+}
+
+img {
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+
+.card .card-body{
+    margin:7% 0;
+    padding-left:4px;
+}
+
+
+#jumlah{
+    font-weight: bold;
+}
+
+.row.display-flex {
+    display: flex;
+  
+  }
+
+  .card-footer .btn-link{
+    font-size:20px;
+    color:whitesmoke;
+  }
+

@@ -159,21 +159,27 @@ body{
     background-color: #666;
 }
 
+
 #carouselActive{
-    background-color: #a28282 ;
-    border-radius: 25px;
-    padding-bottom: 30px;
-    
+    background-color: whitesmoke ;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
 }
 #carouselActive2{
-    background-color: #a28282;
-    border-radius: 25px;
-    padding-bottom: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
 }
 #carouselActive3{
-    background-color: #a28282;
-    border-radius: 25px;
-    padding-bottom: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
 }
 
 .Testimonial {
@@ -181,6 +187,8 @@ body{
     text-align: center;
     font-family: 'Ysabeau SC', sans-serif;
     border-bottom:10px;
+    margin-top: 100px ;
+    margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #a28282;
@@ -189,19 +197,31 @@ body{
 
 #carouselTestimoni{
     height: 20rem;
-    width: 100%;
+    width: 300px;
+    height: 400px;
     padding-bottom: 30px;
     background-color: black;
     margin-bottom: 4cm;
   } 
 
-.profile {
+.h3-s{
+  font-size: 20px;
+  color: #a28282;
+}
+
+.cn-it {
+  background-image: url(pic/muscular.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.profile{
   width: 200px; 
   height: 200px; 
-  border: 1px solid #f0eeee; 
+  border: 3px solid #a28282; 
   overflow: hidden; 
   display: block;
   margin: 0 auto;  
+  border-radius: 10px;
   padding-bottom: 30px;    
   }
 
@@ -216,14 +236,26 @@ body{
     color: #070707;
     float:left
   }
+.h1-ts{
+  text-align: center;
+}
 
+.col{
+  float: right;
+  
+}
 .awards{
-    background-color: #a28282;
     border-radius: 25px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     height: 20rem;
+    left: 200px;
     width: 70%;
-    padding-right: 40px;
+    /* padding: 50px; */
+    /* text-align: right; */
+    align-items: end;
+    float: right;
+    /* padding-right: 40px; */
+    
 }
 
 .listAwards{
@@ -237,7 +269,7 @@ body{
 #titleAwards{
     font-size: 65px;
     text-align: center;
-    color: black;
+    color: #a28282;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
